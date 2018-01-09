@@ -34,6 +34,17 @@ The `css-sprite` and `svg-sprite` folders contain pre-generated sprite sheets, a
 
 If you wish to use the icon set with Polymer, we recommend consuming them via the [`<iron-icons>`](https://github.com/polymerelements/iron-icons) element ([`<core-icons>`](https://github.com/Polymer/core-icons) in v0.5).
 
+## Usage for Angular applications  
+
+To generate custom svg-sprites, you must follow the following steps:
+
+* Create new folder on the root of this project (category);
+* Copying .svg icons to category/svg/production with "*_24px.svg";
+* Add custom category to ICON_CATEGORIES array in gulpfile.babel.js;
+* Run svg-sprites task with "gulp svg-sprites" to generate custom svg sprite;  
+
+The usage of svg-sprites for Angular apps can be consulted in the following tutorial: [SVG Icons for Angular Material Applications](https://www.codeproject.com/Tips/1213528/WebControls/)
+
 ## License
 
 We have made these icons available for you to incorporate them into your products under the [Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt). Feel free to remix and re-share these icons and documentation in your products.
