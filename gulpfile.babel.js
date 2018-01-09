@@ -28,6 +28,7 @@ const ICON_CATEGORIES = [
   'places',
   'social',
   'toggle',
+  'milenio3'
 ];
 
 

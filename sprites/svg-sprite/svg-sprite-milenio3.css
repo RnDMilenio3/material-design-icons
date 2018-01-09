@@ -1,0 +1,27 @@
+.svg-Consumos_black_24px {
+	background: url("svg-sprite-milenio3.svg") 0 0 no-repeat;
+}
+
+.svg-Consumos_black_24px-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg-ReservasConsumo_black_24px {
+	background: url("svg-sprite-milenio3.svg") 100% 0 no-repeat;
+}
+
+.svg-ReservasConsumo_black_24px-dims {
+	width: 24px;
+	height: 24px;
+}
+
+.svg-Reservas_black_24px {
+	background: url("svg-sprite-milenio3.svg") 0 100% no-repeat;
+}
+
+.svg-Reservas_black_24px-dims {
+	width: 24px;
+	height: 24px;
+}
+
